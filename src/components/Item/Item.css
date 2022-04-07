@@ -1,0 +1,28 @@
+.CartItem{
+    width:calc(80vw - 1rem);
+    margin: 1rem auto ;
+    border-radius: 8px;
+    background: rgb(123, 255, 71);
+    padding:.5rem 1rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.product{
+    color: white;
+    width: 10%;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+}
+
+.remove{
+    height:2rem;
+}
+
+ul{
+
+    padding:0;
+}

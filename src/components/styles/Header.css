@@ -1,0 +1,30 @@
+header{
+    height:4rem;
+    background: rgb(123, 255, 71);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header .Logo{
+    width:6rem;
+}
+
+.Content{
+    width:12rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.Cart{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+h2{
+    margin: 0;
+}
+
