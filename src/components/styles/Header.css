@@ -1,6 +1,6 @@
 header{
     height:4rem;
-    background: rgb(123, 255, 71);
+    background: var(--orange);
     display: flex;
     justify-content: space-between;
     align-items: center;

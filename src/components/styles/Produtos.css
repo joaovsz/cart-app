@@ -13,7 +13,7 @@ main{
     padding:2rem;
     justify-content: space-evenly;
     display:flex;
-    background: rgb(53, 109, 31);
+    background: var(--dark-blue);
 }
 
 .card{

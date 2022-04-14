@@ -2,7 +2,7 @@
     width:calc(80vw - 1rem);
     margin: 1rem auto ;
     border-radius: 8px;
-    background: rgb(123, 255, 71);
+    background: var(--orange);
     padding:.5rem 1rem;
     height: 4rem;
     display: flex;

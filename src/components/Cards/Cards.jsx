@@ -12,7 +12,7 @@ function Cards({img, title, price, handleAddItemCart}){
         palette: {
           primary: {
             // Purple and green play nicely together.
-            main: "#7bff47",
+            main: "#FF5F00",
           },
           secondary: {
             // This is green.A700 as hex.
@@ -28,7 +28,7 @@ function Cards({img, title, price, handleAddItemCart}){
           <h3>{title}</h3>
           <h4>R$ {price}</h4>
 
-          <Stack direction="row" spacing={2}>
+          
             <Button
               onClick={() => handleAddItemCart(img, title, price)}
               disableElevation="true"
@@ -38,16 +38,7 @@ function Cards({img, title, price, handleAddItemCart}){
             >
               Comprar
             </Button>
-            <Button
-              disableElevation="true"
-              size="medium"
-              theme={theme}
-              variant="outlined"
-              endIcon={<RemoveShoppingCartIcon color="action" />}
-            >
-              Remover
-            </Button>
-          </Stack>
+            
         </div>
       </div>
     );

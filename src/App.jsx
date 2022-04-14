@@ -20,7 +20,7 @@ function handleAddItemCart(url, name, price){
 return ( <>
   <Header></Header>
   <Produtos handleAddItemCart={handleAddItemCart} cart={cart}></Produtos>
- <CardItems cart={cart} ></CardItems> 
+  <CardItems cart={cart} ></CardItems> 
  </>
   )
 }

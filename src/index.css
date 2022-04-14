@@ -1,4 +1,14 @@
+*{
+  --orange: #FF5F00;
+  --orange-dark: #B20600;
+  --dark-blue: #00092C;
+  --white: #EEEEEE;
+}
+
+
 body {
   margin: 0;
   font-family: Roboto;
+  padding: 0;
+  box-sizing: border-box;
 }

@@ -10,7 +10,7 @@ function Item (props) {
         palette: {
           primary: {
             // Purple and green play nicely together.
-            main: "#558555",
+            main: "#EEEEEE",
           },
           secondary: {
             // This is green.A700 as hex.
@@ -28,7 +28,7 @@ function Item (props) {
       <Button
         className="remove"
         theme={theme}
-        variant="contained"
+        variant="outlined"
         endIcon={<RemoveShoppingCartIcon color="action" />}
       >
         Remover
