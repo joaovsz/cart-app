@@ -1,5 +1,5 @@
 .produtos{
-    width:20rem;
+    width:15rem;
     border-radius:.5rem .5rem 0 0;
 
 }
@@ -10,15 +10,15 @@ main{
     justify-content:space-between;
 }
 .Container{
+   
     padding:2rem;
     justify-content: space-evenly;
     display:flex;
-    background: var(--dark-blue);
+   
 }
 
 .card{
-   
-    background: rgb(246,246,246);
+    background: white;
     border-radius:.5rem;
 }
 
@@ -29,4 +29,8 @@ span{
 .Description{
     padding: 0 0 2rem 2rem;
     text-align: left;
+}
+
+h3{
+    font-weight: 200;
 }

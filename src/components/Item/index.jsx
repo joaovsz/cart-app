@@ -11,7 +11,7 @@ const {removeItemCart} = useContext(ProductContext)
         palette: {
           primary: {
             // Purple and green play nicely together.
-            main: "#182717",
+            main: "#000000",
           },
           secondary: {
             // This is green.A700 as hex.

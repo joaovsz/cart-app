@@ -4,16 +4,16 @@ import ShoppingCartSharp from '@mui/icons-material/ShoppingCart';
 import {ProductContext} from '../context/productContext'
 
 function Header(){
-  
 const {cart} = useContext(ProductContext)
-
+//Funcionalidade de soma do valor total de produtos
+const totalPrice = cart.reduce((acc, current)=> acc + current.price, 0)
     return (
     <header>
         <img className="Logo" src="./minimalLogo.svg"/>
         <div className="Content">
             <div className="Cart">
-        <span>Produtos</span>
-        <h2>{}</h2>
+        <p>Total</p>
+        <h2>R$ {totalPrice.toFixed(2)}</h2>
             </div>
         <ShoppingCartSharp fontSize="large"/>
         </div>

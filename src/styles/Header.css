@@ -1,19 +1,25 @@
 header{
-    height:4rem;
-    background: var(--orange);
+    height:2rem;
+   
+    background:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
 }
+header p{
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
 
 header .Logo{
-    width:6rem;
+    width:4rem;
 }
 
 .Content{
     width:12rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
 }
@@ -25,6 +31,7 @@ header .Logo{
 
 }
 h2{
+    font-size:16px;
     margin: 0;
 }
 
