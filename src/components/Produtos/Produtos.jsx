@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/Produtos.css";
+import "./Produtos.css";
 import {boots} from "../../../database/index.jsx"
 import Cards from "../Cards/Cards.jsx"
  
 
-  function Produtos( {handleAddItemCart}) {
+  function Produtos() {
 
   return (
     <>
@@ -18,7 +18,7 @@ import Cards from "../Cards/Cards.jsx"
           title={boots.name} 
           price={boots.price} 
           img={boots.url}
-          handleAddItemCart={handleAddItemCart} />
+          />
         
           
         ))}
@@ -30,6 +30,3 @@ import Cards from "../Cards/Cards.jsx"
 
 export default Produtos;
 
-{/* <Cards price={[ 799.00]} name={["Air Max 97 SE Masculino"]}> </Cards>
-  <Cards price={[ 799.00]} name={["Air Max 97 SE Masculino"]}> </Cards>
-  <Cards price={[ 799.00]} name={["Air Max 97 SE Masculino"]}> </Cards> */}

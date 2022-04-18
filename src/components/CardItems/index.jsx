@@ -1,16 +1,23 @@
-import React from "react";
+import React, {useContext} from "react";
 import Item from "../Item/index.jsx"
+import { ProductContext } from "../context/productContext.jsx";
+import "./footer.css"
 
-const CardItems = ({cart})=>{
+const CardItems = ( )=>{
+    const {cart} = useContext(ProductContext)
     return(
-        <footer>
+        <div id="cartList">
             <ul>
                {cart.map((cartItem, index)=>(
                <Item 
-               key={index}/>
+               key={index}
+               img={cartItem.url}
+               itemIndex={index}
+               name={cartItem.name}
+               price={cartItem.price}/>
               ))}
             </ul>
-        </footer>
+        </div>
     )
 }
 

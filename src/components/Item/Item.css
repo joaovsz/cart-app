@@ -1,8 +1,8 @@
 .CartItem{
     width:calc(80vw - 1rem);
-    margin: 1rem auto ;
+   margin: 0 auto 1rem;
     border-radius: 8px;
-    background: var(--orange);
+    background:white;
     padding:.5rem 1rem;
     height: 4rem;
     display: flex;
@@ -10,12 +10,28 @@
     justify-content:space-between;
 }
 
+.CartItem:last-child{
+    margin-bottom: 0;
+}
+
 .product{
-    color: white;
-    width: 10%;
+    color: rgb(10, 0, 0);
+   
     display: flex;
     align-items: center;
    justify-content:space-between;
+}
+
+.product h5{
+    margin: 1rem;
+}
+
+.product p{
+    margin: 1rem;
+}
+.product img{
+    width:3rem;
+
 }
 
 .remove{
@@ -23,6 +39,6 @@
 }
 
 ul{
-
-    padding:0;
+margin: 0;
+padding: 0;
 }

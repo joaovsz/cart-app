@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Button from "@mui/material/Button";
-import RemoveShoppingCartIcon from "@mui/icons-material/RemoveShoppingCart";
 import { createTheme } from "@mui/material/styles";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
-import Stack from "@mui/material/Stack";
+import { ProductContext } from '../context/productContext';
 
 
-function Cards({img, title, price, handleAddItemCart}){
-
+function Cards({img, title, price}){
+  const { handleAddItemCart } = useContext(ProductContext)
     const theme = createTheme({
         palette: {
           primary: {
