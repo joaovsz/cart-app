@@ -26,7 +26,7 @@ O Cart-App é uma aplicação desenvolvida  com React com intuito de fazer uma p
 
 ## 🔖 Demonstração
 
-<img src="public/demoGif.gif">
+<img src="public/attDemo.gif">
 
 
 ---
